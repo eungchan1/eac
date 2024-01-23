@@ -235,8 +235,10 @@ div.fullname {
 }
 
 label {
-  color: #eeff86;
-  -webkit-text-stroke: 1px #000000;
+  font-family: "raleway";
+  font-size: 20px;
+  color: #000000;
+  /* -webkit-text-stroke: 1px #ffffff; */
 }
 
 form.lastname {
