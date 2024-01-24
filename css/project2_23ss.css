@@ -221,7 +221,6 @@ div.box {
   align-items: center;
   color: #ffffff;
   border: solid 5px #ffffff;
-  font-family: "raleway_regular";
-  font-weight: normal;
-  font-size: 30px;
+  font-family: "raleway";
+  font-size: 35px;
 }

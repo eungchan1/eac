@@ -173,8 +173,7 @@ section.look {
   justify-content: center;
   align-items: center;
   gap: 152px;
-  position: absolute;
-  bottom: 70px;
+  padding-top: 250px;
 }
 
 div.look_look {
