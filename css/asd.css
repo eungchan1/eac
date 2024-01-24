@@ -18,7 +18,7 @@ ul {
 }
 
 a {
-  color: white;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -26,10 +26,22 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  background-image: url(../images/sub_main/23fw.jpg);
+  flex-direction: column;
+  background-image: url(../images/contact/contact.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  isolation: isolate;
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  background: white;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.4;
 }
 
 nav.navi {
@@ -76,7 +88,7 @@ ul.menu_list {
   font-family: "raleway";
   font-weight: bold;
   gap: 42px;
-  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 5px 4px #eeff86;
 }
 
 .projects_list {
@@ -87,10 +99,10 @@ ul.menu_list {
   justify-content: center;
   align-items: center;
   position: absolute;
-  /* left: 840px; */
+  left: 843px;
   top: 110px;
   gap: 40px;
-  /* transform: translateY(0); */
+  /* transform: translateY(-100%); */
   visibility: hidden;
   transition: all 1s;
   z-index: -100;
@@ -104,23 +116,35 @@ ul.menu_list {
 }
 
 .menu_btn_1:hover {
-  color: #eeff86;
-}
-
-.menu_btn_2 {
-  color: #eeff86;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #0000ff;
 }
 
 .menu_btn_2:hover {
-  color: #eeff86;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #0000ff;
 }
 
 .menu_btn_3:hover {
-  color: #eeff86;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #0000ff;
 }
 
 .menu_btn_4:hover {
-  color: #eeff86;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #0000ff;
+}
+
+li.menu_1 {
+  width: 167px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.projects {
+  font-family: "raleway";
+  font-size: 30px;
 }
 
 li.menu_3 {
@@ -137,15 +161,13 @@ li.menu_4 {
   align-items: center;
 }
 
-.projects {
-  font-family: "raleway";
-  font-size: 30px;
-  font-weight: 900;
+.menu_btn_4 {
+  color: #0000ff;
 }
 
 .sub_menu:hover {
-  color: #eeff86;
-  -webkit-text-stroke: 2px #000000;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #0000ff;
 }
 
 p.time {
@@ -157,11 +179,11 @@ p.time {
   font-weight: bold;
   position: absolute;
   right: 33px;
-  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 5px 4px #efff86;
 }
 
 span.line {
-  width: 165px;
+  width: 117px;
   height: 10px;
   display: block;
   display: flex;
@@ -169,58 +191,6 @@ span.line {
   background-color: #0000ff;
   border-radius: 3px;
   top: 70px;
-  left: 80px;
+  left: 1165px;
   z-index: -100;
-  visibility: hidden;
-}
-
-section.first_section {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.main_word {
-  width: 1000px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.eungchan_word {
-  text-align: center;
-  font-family: "raleway";
-  font-size: 100px;
-  font-weight: 900;
-}
-
-.eungchan {
-  color: #e8ff5a;
-  -webkit-text-stroke: 3px #000000;
-}
-
-div.box {
-  width: 300px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 120px;
-  bottom: 120px;
-}
-
-.box_box {
-  width: 300px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  border: solid 5px #ffffff;
-  font-family: "raleway";
-  font-size: 35px;
 }

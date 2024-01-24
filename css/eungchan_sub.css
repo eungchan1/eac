@@ -178,7 +178,7 @@ div.info {
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 200px;
+  top: 300px;
   z-index: -100;
 }
 
