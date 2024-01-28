@@ -175,7 +175,7 @@ section.look {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 70px;
+  bottom: 100px;
   z-index: -1;
 }
 

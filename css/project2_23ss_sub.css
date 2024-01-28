@@ -174,7 +174,7 @@ section.look {
   align-items: center;
   gap: 152px;
   position: absolute;
-  bottom: 70px;
+  bottom: 100px;
   z-index: -1;
 }
 
